@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: k8s-test-tools
+spec:
+  selector:
+    matchLabels:
+      name: k8s-test-tools
+  template:
+    metadata:
+      labels:
+        name: k8s-test-tools
+    spec:
+      containers:
+      - name: test-tools
+        image: alicey/test-tools
