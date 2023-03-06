@@ -34,5 +34,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/gh-actions-test:${{ env.BUILD_DATETIME }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/gh-actions-test:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/test-tools:${{ env.BUILD_DATETIME }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/test-tools:latest

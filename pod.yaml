@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: k8s-test-tools
-    image: alicey/test-tools
+    image: alicey/test-tools:latest

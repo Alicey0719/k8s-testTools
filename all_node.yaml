@@ -13,4 +13,4 @@ spec:
     spec:
       containers:
       - name: test-tools
-        image: alicey/test-tools
+        image: alicey/test-tools:latest
